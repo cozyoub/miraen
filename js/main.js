@@ -7,7 +7,7 @@ const newsCtx = gsap.context(() => {
   gsap.to(newsWraps, {
     opacity: 1,
     y: 0,
-    duration: 0.6,
+    duration: 1,
     ease: 'power2.out',
     stagger: 0.2,
     scrollTrigger: {
